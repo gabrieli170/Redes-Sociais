@@ -3,9 +3,9 @@
 
 
 :root {
-    --bg-color: #e9198b;
-    --primary-color: #bd9ee4;
-    --secundary-color: #e40081;
+    --bg-color: #05036b;
+    --primary-color: #adf590;
+    --secundary-color: #70e9cf;
     --font: "Edu AU VIC WA NT Guides", cursive; 
 }
 body{
@@ -47,4 +47,17 @@ footer{
     height: 3rem;
     margin-top: 2rem;
     
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container_texto{
+    font-size: 1.3 rem;
+    text-align: center;
+    padding: 2 rem;
+    border: var(--secundary-color) solid 2px;
+}
+span{
+    font-weight: bold;
+    color: var(--secundary-color);
 }
